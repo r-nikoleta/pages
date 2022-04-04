@@ -1,0 +1,65 @@
+body {
+    margin: 50px;
+    background-color: rgb(202, 194, 183);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+
+header {
+    padding: 20px;
+
+}
+
+.header {
+    margin: 0px;
+    padding: 20px;
+    Font-family: Helvetica, Arial, sans-serif;
+    font-size:200px;
+}
+
+nav {
+    padding: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.icon {
+    width: 30px;
+}
+
+main {
+    padding: 45px;
+    margin: 0px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aPoster{
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+.bPoster{
+    border-radius: 60% 40% 60% 70%;
+}
+.cPoster{
+    border-radius: 60% 40% 60% 40% / 70% 30% 30% 70%;
+}
